@@ -10,7 +10,7 @@ spring:
     password: Hatsunemiku39$
   jpa:
     hibernate:
-      ddl-auto: create # Try create-drop
+      ddl-auto: update # Use 'update' if you want to update the schema without dropping existing tables
     properties:
       hibernate:
         format_sql: true
@@ -35,3 +35,5 @@ logging:
     org.hibernate.SQL: DEBUG  # Logs SQL queries
     org.hibernate.type.descriptor.sql.BasicBinder: TRACE  # Logs parameter binding
     org.hibernate.tool.hbm2ddl: TRACE  # Log the DDL schema creation (e.g., CREATE TABLE)
+    org.springframework: DEBUG
+    com.keinpyisi: DEBUG

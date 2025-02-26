@@ -1,6 +1,5 @@
 com\keinpyisi\service1\Main.class
 com\keinpyisi\service1\service\UserService.class
-com\keinpyisi\service1\Jersey3TransportClientFactoriesConfig.class
 com\keinpyisi\service1\config\DatabaseConfig.class
 com\keinpyisi\service1\repository\UserRepository.class
 com\keinpyisi\service1\model\User.class
